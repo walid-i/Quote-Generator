@@ -27,6 +27,8 @@
     margin: 12rem 0 0 0;
     width: auto;
     display: flex;
+    padding: 0.7rem 0 0 0;
+    border-top: 0.02rem solid var(--color-text);
 }
 
 .btn{
