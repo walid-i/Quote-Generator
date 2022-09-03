@@ -13,11 +13,13 @@
     border-bottom: 1.3rem solid var(--color-random);
     box-shadow: -0.5rem 0.5rem 0.6rem rgba(var(--color-text-out), 0.8);
     border-radius: 1rem;
+    background-color: var(--color-main);
 }
 
 .text-container h2{
     font-family: var(--font-main);
     text-align: center;
+    color: var(--color-text);
 }
 
 .bar{

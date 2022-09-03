@@ -5,7 +5,7 @@
 
 nav{
     float: left;
-    margin: 5rem 0 0 5rem;
+    margin: 2rem 0 0 5rem;
     display: grid;
     place-items: center;
     border: 0.03rem solid var(--color-main);
@@ -30,4 +30,24 @@ nav a{
 .sidenav i{
     margin: 1.6rem auto;
     color: var(--color-main);
+}
+
+.fa-heart-pulse:hover{
+    color: var(--color-love);
+}
+
+.fa-lightbulb:hover{
+    color: var(--color-insp);
+}
+
+.fa-bowl-food:hover{
+    color: var(--color-food);
+}
+
+.fa-volleyball:hover{
+    color: var(--color-sports);
+}
+
+.fa-peace:hover{
+    color: var(--color-stress);
 }
