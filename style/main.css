@@ -19,7 +19,7 @@
     --color-insp: rgb(141, 32, 151);
     --color-food: rgb(175, 139, 21);
     --color-sports: rgb(23, 114, 5);
-    --color-stress: rgb(233, 255, 40);
+    --color-stress: rgb(205, 228, 0);
     --color-text: rgb(43, 43, 43);
 
     --color-main-out: 255, 255, 255;
@@ -28,11 +28,11 @@
     --color-insp-out: 141, 32, 151;
     --color-food-out: 175, 139, 21;
     --color-sports-out: 23, 114, 5;
-    --color-stress-out: 233, 255, 40;
+    --color-stress-out: 205, 228, 0q;
     --color-text-out: 43, 43, 43;
 }
 
-.dark-theme{
+/* .dark-theme{
     --color-main: rgb(41, 41, 41);
     --color-random: rgb(37, 37, 206);
     --color-love: rgb(190, 0, 0);
@@ -50,7 +50,7 @@
     --color-sports-out: 37, 192, 6;
     --color-stress-out: 252, 255, 95;
     --color-text-out: 255, 255, 255;
-}
+} */
 
 .root{
     background-color: var(--color-main);

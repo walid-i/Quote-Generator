@@ -32,6 +32,10 @@ nav a{
     color: var(--color-main);
 }
 
+.fa-house-chimney:hover{
+    color: var(--color-random);
+}
+
 .fa-heart-pulse:hover{
     color: var(--color-love);
 }

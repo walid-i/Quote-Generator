@@ -1,0 +1,28 @@
+.sports{
+    background-color: var(--color-sports);
+    color: var(--color-main);
+    font-family: var(--font-main);
+    border-bottom: 0.05rem solid var(--color-text);
+}
+
+.sports h4{
+    padding-bottom: 1rem;
+    font-family: var(--font-sub);
+}
+
+.sports-nav{
+    background-color: var(--color-sports);
+}
+
+.sports-cont{
+    border-bottom: 1.3rem solid var(--color-sports);
+}
+
+.sports-bar button{
+    border: 0.03rem solid var(--color-sports);
+}
+
+.sports-bar button:hover{
+    background-color: var(--color-sports);
+    color: var(--color-main);
+}
