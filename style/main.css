@@ -1,0 +1,66 @@
+@import url('http://fonts.cdnfonts.com/css/lora');
+@import url('http://fonts.cdnfonts.com/css/martel-2');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-main: 'Lora', sans-serif;
+    --font-sub: 'Martel', sans-serif;
+
+    --color-main: rgb(255, 255, 255);
+    --color-random: rgb(23, 35, 167);
+    --color-love: rgb(172, 32, 32);
+    --color-insp: rgb(141, 32, 151);
+    --color-food: rgb(175, 139, 21);
+    --color-sports: rgb(23, 114, 5);
+    --color-stress: rgb(233, 255, 40);
+    --color-text: rgb(43, 43, 43);
+
+    --color-main-out: 255, 255, 255;
+    --color-random-out: 22, 22, 128;
+    --color-love-out: 172, 32, 32;
+    --color-insp-out: 141, 32, 151;
+    --color-food-out: 175, 139, 21;
+    --color-sports-out: 23, 114, 5;
+    --color-stress-out: 233, 255, 40;
+    --color-text-out: 43, 43, 43;
+}
+
+.dark-theme{
+    --color-main: rgb(41, 41, 41);
+    --color-random: rgb(37, 37, 206);
+    --color-love: rgb(190, 0, 0);
+    --color-insp: rgb(97, 8, 105);
+    --color-food: rgb(211, 163, 4);
+    --color-sports: rgb(37, 192, 6);
+    --color-stress: rgb(252, 255, 95);
+    --color-text: rgb(255, 255, 255);
+
+    --color-main-out: 41, 41, 41;
+    --color-random-out: 37, 37, 206;
+    --color-love-out: 190, 0, 0;
+    --color-insp-out: 97, 8, 105;
+    --color-food-out: 211, 163, 4;
+    --color-sports-out: 37, 192, 6;
+    --color-stress-out: 252, 255, 95;
+    --color-text-out: 255, 255, 255;
+}
+
+.root{
+    background-color: var(--color-main);
+    height: 100vh;
+}
+
+#icon{
+    position: relative;
+    float: right;
+    height: 8rem;
+    margin: -18rem 4rem 0 0;
+    cursor: pointer;
+}
