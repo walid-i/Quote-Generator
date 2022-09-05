@@ -1,0 +1,28 @@
+.love{
+    background-color: var(--color-love);
+    font-family: var(--font-main);
+    color: var(--color-main);
+    border-bottom: 0.05rem solid var(--color-text);
+}
+
+.love h4{
+    font-family: var(--font-sub);
+    padding-bottom: 1rem;
+}
+
+.love-nav{
+    background-color: var(--color-love);
+}
+
+.love-cont{
+    border-bottom: 1.3rem solid var(--color-love);
+}
+
+.love-bar button{
+    border: 0.03rem solid var(--color-love);
+}
+
+.love-bar button:hover{
+    background-color: var(--color-love);
+    color: var(--color-main);
+}

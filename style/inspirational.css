@@ -1,0 +1,28 @@
+.inspiration{
+    background-color: var(--color-insp);
+    color: var(--color-main);
+    font-family: var(--font-main);
+    border-bottom: 0.05rem solid var(--color-text);
+}
+
+.inspiration h4{
+    font-family: var(--font-sub);
+    padding-bottom: 1rem;
+}
+
+.inspiration-nav{
+    background-color: var(--color-insp);
+}
+
+.insp-cont{
+    border-bottom: 1.3rem solid var(--color-insp);
+}
+
+.insp-bar button{
+    border: 0.03rem solid var(--color-insp);
+}
+
+.insp-bar button:hover{
+    background-color: var(--color-insp);
+    color: var(--color-main);
+}
