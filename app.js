@@ -1,5 +1,18 @@
 //test test test
 
+function generate(){
+    $.get('test.csv', function(CSVdata){
+        data = $.csv.toArray(CSVdata);
+        console.log(data)
+        randomNum = Math.floor(Math.random() * data.length)
+        console.log("i pick...")
+        console.log(data[randomNum])
+        document.getElementById("quoteAreaHome").innerHTML = data[randomNum]
+    })
+    
+}
+
+
 // var icon = document.getElementById("icon");
 
 // icon.onclick = function(){
