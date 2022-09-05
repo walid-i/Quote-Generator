@@ -5,17 +5,17 @@
 
 nav{
     float: left;
-    margin: 2rem 0 0 5rem;
+    /* margin: 2rem 0 0 5rem; */
     display: grid;
     place-items: center;
-    border: 0.03rem solid var(--color-main);
-    border-radius: 2rem;
+    /* border: 0.03rem solid var(--color-main);
+    border-radius: 2rem;  */
     height: -moz-fit-content;
     height: fit-content;
     width: auto;
     padding: 0 2rem;
     background-color: var(--color-random);
-    box-shadow: 0.5rem 0.5rem 0.7rem rgba(var(--color-text-out),  0.8);
+    /* box-shadow: 0.5rem 0.5rem 0.7rem rgba(var(--color-text-out),  0.8); */
 }
 
 nav ul{
