@@ -9,9 +9,7 @@ function generate(){
         console.log(data[randomNum])
         document.getElementById("quoteAreaHome").innerHTML = data[randomNum]
     })
-    
 }
-
 
 // var icon = document.getElementById("icon");
 
