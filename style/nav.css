@@ -18,6 +18,10 @@ nav{
     /* box-shadow: 0.5rem 0.5rem 0.7rem rgba(var(--color-text-out),  0.8); */
 }
 
+.collapse .navbar-nav{
+    margin-left: auto;
+}
+
 nav ul{
     list-style: none;
 }
@@ -54,4 +58,27 @@ nav a{
 
 .fa-peace:hover{
     color: var(--color-stress);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .navigate{
+        display: flex;
+    }
+
+    nav{   
+        
+        height: 5rem;
+        width: 80vw;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 4rem;
+    }
+
 }
